@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.division>.Navbar>.unorderedList>li>a {
+    text-decoration: none;
+    color: white;
+    /* font-weight: bold; */
+    /* font-size: larger; */
+    padding-left: 20px;
+
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 0%;
+    position: relative;
+    background-color: rg;
+}
+
+li>ul {
+    display: none;
+
+}
+
+li:hover {
+
+    background-color: rgb(80, 106, 138);
+    ;
+}
+
+.unorderedList:hover {
+    background-color: rgb(80, 106, 138);
+    color: azure;
+}
+
+
+.division>.Navbar>.unorderedList:hover {
+    background-color: rgb(90, 110, 128);
+}
+
+li:hover>.InnerUList {
+    display: block;
+    position: absolute;
+    background-color: white;
+    text-decoration: none;
+}
+
+li>a {
+    display: block;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.Navbar>.unorderedList {
+    margin-top: 0%;
+}
+
+
+#heading>h1 {
+    margin: 0;
+}
+
+.imageSlide {
+
+    margin: 3px;
+    height: 400px;
+    min-height: 300px;
+    text-align: center;
+    background-color: rgb(163, 228, 228);
+    border: 5px solid steelblue;
+    animation: changeImage 40s infinite;
+    z-index: -1;
+}
+
+.division {
+    position: sticky;
+    top: 0;
+    background-color: rgb(80, 106, 138);
+    z-index: 1;
+}
+
+.innerstyle {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 3px;
+    font-size: larger;
+}
+
+@keyframes changeImage {
+    0% {
+        background-image: url(ani1.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-size: cover;
+    }
+
+    25% {
+        background-image: url(ani2.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-size: cover;
+    }
+
+    50% {
+        background-image: url(ani3.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-size: cover;
+    }
+
+    75% {
+        background-image: url(ani4.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-size: cover;
+    }
+
+    100% {
+        background-image: url(ani5.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-size: cover;
+    }
+
+}
+
+.main {
+    padding-left: 20px;
+}
+
+.main h2 {
+  
+    color: rgb(6, 1, 1);
+}
+
+.product {
+    padding: 5px;
+    width: 14%;
+    min-width: 140px;
+    min-height: 180px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 3px;
+    background-color: rgb(243, 243, 253);
+    box-shadow: 3px 3px 2px 2px black;
+    box-radius: 3px;
+    background-color: azure;
+}
+
+.product:hover {
+    box-shadow: 5px 5px 10px rgb(25, 25, 26);
+    width: 15%;
+    height: 200px;
+}
+
+.product>h4,
+.product>p {
+    margin: 0%;
+}
+
+.product>p {
+    font-size: 16px;
+    color: #06908f;
+}
+
+.product img {
+    width: 98%;
+    height: 100px;
+}
+
+.product button {
+    width: 100%;
+    background-color: lavender;
+    font-size: 16px;
+    border: 1px solid blue;
+    color: turquoise;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.product button:active {
+    background-color: thistle;
+    border: 1px solid rgb(0, 255, 76);
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    position: relative;
+    bottom: 0%;
+    text-align: center;
+}
